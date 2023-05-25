@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Ta-te-ti
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ta-te-ti es un clásico juego de tres en raya implementado utilizando HTML, CSS y JavaScript. Puedes disfrutar de este juego en cualquier navegador web compatible.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Interfaz de usuario intuitiva y fácil de usar.
+- Juego de tres en raya clásico con dos jugadores.
+- Indicador de turno para cada jugador.
+- Detección automática del ganador y final del juego.
+- Reinicio del juego para una nueva partida.
 
-### `npm start`
+## Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML
+- CSS
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio en tu máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   git clone https://github.com/tu-usuario/tate-ti.git
+   ```
 
-### `npm run build`
+2. Navega hasta el directorio del proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   cd tate-ti
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Abre el archivo `index.html` en tu navegador web.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Uso
 
-### `npm run eject`
+- Haz clic en una casilla vacía para colocar tu símbolo (X o O).
+- Los jugadores se turnan para colocar sus símbolos en el tablero.
+- El primer jugador en formar una línea horizontal, vertical o diagonal de su símbolo gana el juego.
+- Si todas las casillas están ocupadas y no hay un ganador, el juego termina en empate.
+- Para reiniciar el juego, haz clic en el botón "Reiniciar" o actualiza la página.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribución
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Las contribuciones son bienvenidas. Si deseas mejorar el juego, por favor, sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Crea un fork de este repositorio.
+2. Crea una rama para tu nueva característica (`git checkout -b nueva-caracteristica`).
+3. Realiza los cambios deseados y realiza los commits (`git commit -am 'Añade nueva característica'`).
+4. Envía tus cambios al repositorio remoto (`git push origin nueva-caracteristica`).
+5. Abre una solicitud de extracción en GitHub.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contacto
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [Herinyhert](mailto:herinyhert@gmail.com).
