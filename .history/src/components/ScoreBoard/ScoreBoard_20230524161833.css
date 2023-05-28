@@ -1,0 +1,5 @@
+.score-board {
+    width: 320;
+    display: grid;
+    grid-auto-flow: ;
+}
