@@ -1,0 +1,19 @@
+import "./ScoreBoard.css";
+
+const ScoreBoard = ({ scoreX, scoreO, player1Name, player2Name, turn }) => {
+  const isPlayer1Turn = turn === "X";
+  const isPlayer2Turn = turn === "O";
+
+  return (
+    <div>
+      <div className="score-board">
+        <div>{scoreX}</div>
+        <div>{scoreO}</div>
+      </div>
+      <div className={isPlayer1Turn ? "activePlayer" : ""}>{player1Name}</div>c
+      <div className={isPlayer2Turn ? "activePlayer" : ""}>{player2Name}</div>
+    </div>
+  );
+};
+
+export default ScoreBoard;

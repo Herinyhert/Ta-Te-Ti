@@ -1,0 +1,129 @@
+/* * {
+  box-sizing: border-box;
+}
+:root {
+  --background-color: black;
+  --text-color: hsl(0, 0%, 100%);
+  height: 600px;
+}
+body {
+  margin: 0;
+}
+div {
+  align-items: center;
+  background-color: var(--background-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+.wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+  font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
+.gameMode {
+  display: flex;
+  place-content: center;
+}
+.gameModeSelect{
+    flex-direction: row;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: black;
+  --text-color: hsl(0, 0%, 100%);
+  height: 600px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  color: white;
+  height: 100%;
+  padding: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+  font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
+
+.gameMode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+
+.gameModeSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.gameModeSelect label {
+  margin-bottom: 0.5rem;
+}
+
+.gameModeSelect select {
+  width: 200px;
+}
+
+.submitButton {
+  margin-top: 1rem;
+}
